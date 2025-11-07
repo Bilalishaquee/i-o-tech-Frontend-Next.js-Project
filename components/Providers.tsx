@@ -21,16 +21,23 @@ function DirectionWrapper({ children }: { children: React.ReactNode }) {
 
 function I18nSync({ children }: { children: React.ReactNode }) {
   const currentLanguage = useAppSelector((state) => state.language.currentLanguage);
-  const dispatch = useAppDispatch();
 
   useEffect(() => {
-    // Sync i18next with Redux language state
-    import('@/lib/i18n/config').then((module) => {
-      const i18n = module.default;
-      if (i18n.language !== currentLanguage) {
-        i18n.changeLanguage(currentLanguage);
-      }
-    });
+    // Only run on client side
+    if (typeof window !== 'undefined') {
+      // Initialize client-side i18n features
+      import('@/lib/i18n/client').then((module) => {
+        module.initClientI18n();
+      });
+
+      // Sync i18next with Redux language state
+      import('@/lib/i18n/config').then((module) => {
+        const i18n = module.default;
+        if (i18n.language !== currentLanguage) {
+          i18n.changeLanguage(currentLanguage);
+        }
+      });
+    }
   }, [currentLanguage]);
 
   return <>{children}</>;
