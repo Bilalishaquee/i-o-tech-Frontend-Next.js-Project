@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "services": "Services",
+    "blog": "Blog",
+    "team": "Our Team",
+    "clients": "Clients",
+    "contact": "Contacts us",
+    "bookAppointment": "Book Appointment"
+  },
+  "hero": {
+    "title": "Lorem Ipsum",
+    "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "cta": "Read More"
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+  },
+  "clients": {
+    "title": "What our clients are saying",
+    "description": "Our clients range from individual investors, to local, international as well as fortune 500 companies. Our clients range from individual investors, to local, international as well as fortune 500 companies.",
+    "testimonialText": "With the help of the hospitable staff of Al Safar and Partners I was able to get my work done without any hassle. The help I received helped me a great deal to overcome the issues that I faced. I was always updated about my case and my queries never went unanswered.",
+    "testimonialAuthor": "Mohammed Saif",
+    "testimonialRole": "CEO/Company"
+  },
+  "footer": {
+    "company": "Company Info",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "subscribe": "Subscribe",
+    "subscribeText": "Stay updated with our latest news",
+    "emailPlaceholder": "Enter your email",
+    "subscribeButton": "Subscribe",
+    "subscribeSuccess": "Successfully subscribed!",
+    "subscribeError": "This email is already subscribed",
+    "copyright": "© 2024. All rights reserved"
+  },
+  "search": {
+    "placeholder": "Search...",
+    "results": "Search Results",
+    "noResults": "No results found"
+  },
+  "blog": {
+    "back": "< Back",
+    "title": "Law Firm is one of the leading legal offices",
+    "intro": "Law Firm is one of the leading legal offices",
+    "readMore": "Read more",
+    "pagination": "Pagination"
+  },
+  "services": {
+    "title": "Legal Consultation Services",
+    "description": "Law Firm is one of the leading legal offices that offers high-quality services to both individuals and companies. Its mission is to provide comprehensive services covering all legal aspects.",
+    "categories": {
+      "corporate": "Corporate Legal Consultation",
+      "individual": "Individual Legal Consultation"
+    },
+    "page": {
+      "back": "< Back",
+      "title": "Legal Consultation Services",
+      "intro": "Law Firm is one of the leading legal offices that offers high-quality services to both individuals and companies. Its mission is to provide comprehensive services covering all legal aspects.",
+      "generalTitle": "General Legal Consultations",
+      "general1": "At Law Firm, we provide comprehensive legal consultations that cover various legal fields and areas. Our team of experienced lawyers is ready to answer your questions and provide the necessary legal guidance.",
+      "general2": "Our goal is to offer accurate legal advice that helps you understand your rights and obligations, and to guide you through the best legal options available.",
+      "corporateTitle": "Corporate Legal Consultations",
+      "corporateIntro": "We at the Law Firm understand the importance of legal consultations for companies and commercial institutions. We provide specialized advisory services that help companies make informed legal decisions.",
+      "corporateSubtitle": "Our advisory services about:",
+      "corporatePoints": [
+        "Establishing and registering companies.",
+        "All kinds of contracts and agreements.",
+        "Commercial disputes.",
+        "Compliance with local and international laws and regulations."
+      ],
+      "individualTitle": "Individual Legal Consultations",
+      "individualIntro": "Law Firm offers customized advisory services for Individuals, including:",
+      "individualPoints": [
+        "Family issues such as divorce, alimony and custody.",
+        "Real estate matters like buying, selling, and renting properties.",
+        "Employment issues such as hiring and wrongful termination.",
+        "Criminal cases and defending personal rights."
+      ],
+      "conclusion": "At Law Firm, we are committed to providing high-quality legal services to both individuals and companies. We work to understand your needs and provide the best legal solutions. Contact us today to get the legal consultation you need."
+    }
+  }
+}
+
